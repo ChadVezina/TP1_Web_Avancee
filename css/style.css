@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1,
+h2,
+h3 {
+    color: #222;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.create-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+    word-wrap: break-word;
+}
+
+.send-btn {
+    display: block;
+    margin-left: auto;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+.send-btn:hover {
+    background-color: #0056b3;
+}
+
+.category-selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.category-btn {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    
+}
+
+.home{
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.edit, .read, .delete{
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+textarea {
+    resize: vertical;
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    min-height: 100px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
