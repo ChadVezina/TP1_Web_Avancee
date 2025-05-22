@@ -1,6 +1,6 @@
 # Exclude entire directories
-other/
-config/
+/others/
+/config/
 
 # Common files to ignore
 .DS_Store
